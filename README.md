@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎫 Sistema de Tickets
 
-## Getting Started
+Sistema web para la gestión y seguimiento de tickets de soporte técnico. Permite a los usuarios crear solicitudes, consultar el estado de sus tickets y administrar la información desde una interfaz moderna.
 
-First, run the development server:
+## 🚀 Características
+
+- Registro e inicio de sesión de usuarios.
+- Gestión de perfiles.
+- Creación y consulta de tickets.
+- Panel de administración de usuarios.
+- Interfaz desarrollada con Next.js.
+- Backend desarrollado con Node.js.
+- Comunicación mediante API REST.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- CSS
+
+### Backend
+- Node.js
+- Express
+
+### Herramientas
+- Git
+- GitHub
+- npm
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+Sistema-de-Tickets/
+│
+├── backend-node/          # API REST
+│   ├── index.js
+│   └── package.json
+│
+├── src/
+│   └── app/
+│       ├── components/
+│       ├── login/
+│       ├── registro/
+│       ├── perfil/
+│       └── usuariosAdmin/
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/UP240877/Sistema-de-Tickets.git
+```
+
+### 2. Entrar al proyecto
+
+```bash
+cd Sistema-de-Tickets
+```
+
+### 3. Instalar dependencias del Frontend
+
+```bash
+npm install
+```
+
+### 4. Instalar dependencias del Backend
+
+```bash
+cd backend-node
+npm install
+```
+
+---
+
+## ▶️ Ejecutar el proyecto
+
+### Backend
+
+```bash
+cd backend-node
+npm start
+```
+
+### Frontend
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+El proyecto estará disponible en:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Capturas
 
-To learn more about Next.js, take a look at the following resources:
+Puedes agregar imágenes del sistema aquí.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Inicio de sesión
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Login](docs/login.png)
 
-## Deploy on Vercel
+### Página principal
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Inicio](docs/inicio.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Administración
+
+![Admin](docs/admin.png)
+
+---
+
+## 📌 Funcionalidades
+
+- Registro de usuarios.
+- Inicio de sesión.
+- Administración de usuarios.
+- Gestión de perfiles.
+- Creación y seguimiento de tickets.
+- Arquitectura Frontend + Backend.
+
+---
+
+## 📈 Mejoras futuras
+
+- Recuperación de contraseña.
+- Notificaciones por correo.
+- Dashboard con estadísticas.
+- Roles y permisos.
+- Historial de tickets.
+- Carga de archivos adjuntos.
+
+---
+
+## 👨‍💻 Autor
+
+**Carlos Michel Martínez Mendoza**
+
+Universidad Politécnica de Aguascalientes
+
+---
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado con fines académicos.
